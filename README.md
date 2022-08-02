@@ -29,3 +29,6 @@ all rows pins (P5) are set as outputs and held high
 ISR: get_input: interrupt service routine to get row and column pressed
 only one row and column can be determined per interrupt. 
 **ISR will disable interrupts for all inputs so init_pins will need to be called to reset**
+
+getting row/col
+use globals row and col stored in .data
