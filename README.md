@@ -1,6 +1,6 @@
 # msp430FR2355_matrix_keypad
 
-pinout 
+##pinout 
 
 Rows=P5 BIT0-BIT3
 Cols=P1 BIT2-BIT5
@@ -18,7 +18,7 @@ P1 BIT3    7
 P1 BIT4    6
 P1 BIT5    5
 
-usage
+##usage
 
 subroutine: init_pins sets up all pins 
 initially all column pins (P1) are set as inputs and held low and each are enabled as interrupt hight/low with pull up resistor set
