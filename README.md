@@ -1,6 +1,6 @@
 # msp430FR2355_matrix_keypad
 
-## pinout 
+pinout 
 
 Rows=P5 BIT0-BIT3
 Cols=P1 BIT2-BIT5
@@ -18,12 +18,12 @@ P1 BIT3    7
 P1 BIT4    6
 P1 BIT5    5
 
-## usage
+usage
 
-##subroutine: init_pins sets up all pins 
+subroutine: init_pins sets up all pins 
 initially all column pins (P1) are set as inputs and held low and each are enabled as interrupt hight/low with pull up resistor set
 all rows pins (P5) are set as outputs and held high 
 
-###ISR: get_input: interrupt service routine to get row and column pressed
+ISR: get_input: interrupt service routine to get row and column pressed
 only one row and column can be determined per interrupt. 
 **ISR will disable interrupts for all inputs so init_pins will need to be called to reset**
