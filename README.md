@@ -18,6 +18,8 @@ P1 BIT3    7
 P1 BIT4    6
 P1 BIT5    5
 
+
+
 usage
 
 subroutine: init_pins sets up all pins 
